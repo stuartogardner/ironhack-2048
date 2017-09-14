@@ -111,7 +111,7 @@ Game2048.prototype._moveDown = function () {
 };
 
 Game2048.prototype.move = function (direction) {
-  ion.sound.play("snap");
+//  ion.sound.play("snap");
 
   if (!this._gameFinished()) {
     switch (direction) {

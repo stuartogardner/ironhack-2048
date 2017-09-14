@@ -1,1 +1,4 @@
-var game = new Game2048();
+
+$(document).ready(function() {
+  var game = new Game2048();
+});
